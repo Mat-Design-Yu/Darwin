@@ -39,6 +39,9 @@ First install the requirements:
 
 ```bash
 pip install -r requirements.txt
+pip install accelerate
+pip uninstall torch
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 ```
 ### Preparing the Darwin Weights
 
